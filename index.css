@@ -1,6 +1,4 @@
-.webpageTitle{
-    background-color: lightblue;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
+body {
+    background-color: #f4f4f4; /* Light gray for a soft feel */
+    color: #333; /* Dark text for contrast */
 }
