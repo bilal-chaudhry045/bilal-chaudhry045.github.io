@@ -6,19 +6,20 @@ body {
 }
 .iconContainer{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     margin-bottom: 15px; 
 }
-.icon img{
+.icon {
     display: flex;
-    flex-direction: row;
-  font-size: 16px;
-  gap:20px;
-  border-radius: 5px;
- mix-blend-mode: multiply;
+   gap: 20px;
 }
-.icon img:hover{
+.icon img{
+  width:40px;
+  height:40px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+.icon a:hover img {
     background-color: #007BFF;
 }
 
