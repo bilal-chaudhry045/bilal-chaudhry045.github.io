@@ -4,13 +4,14 @@ body {
     margin: 0;
     padding: 10;
 }
-.iconContainer {
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: flex-start;
-
+.iconContainer{
+  display : flex;
+  flex-direction:row;
+  gap: 40px;
 }
-
+.icon img:hover{
+    color: #007BFF;
+}
 .linkContainer {
     text-align: center;
     padding: 50px;
