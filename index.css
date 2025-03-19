@@ -5,11 +5,9 @@ body {
     padding: 10;
 }
 .iconContainer{
-position:fixed;
-top:4%;
-left:10px;
-gap:8px;
-display:flex;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 .icon img{
   font-size: 16px;
@@ -19,6 +17,7 @@ display:flex;
 .icon img:hover{
     background-color: #007BFF;
 }
+
 .linkContainer {
     text-align: center;
     padding: 50px;
