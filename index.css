@@ -5,12 +5,19 @@ body {
     padding: 10;
 }
 .iconContainer{
-  display : flex;
-  flex-direction:row;
-  gap: 40px;
+position:fixed;
+top:4%;
+left:10px;
+gap:8px;
+display:flex;
+}
+.icon img{
+  font-size: 16px;
+  border-radius: 5px;
+ mix-blend-mode: multiply;
 }
 .icon img:hover{
-    color: #007BFF;
+    background-color: #007BFF;
 }
 .linkContainer {
     text-align: center;
