@@ -7,11 +7,12 @@ body {
 .iconContainer{
     display: flex;
     justify-content: center;
-    margin-bottom: 25px;
-    gap: 15px;
+    margin-bottom: 15px; 
 }
 .icon img{
+    display: flex;
   font-size: 16px;
+  gap:20px;
   border-radius: 5px;
  mix-blend-mode: multiply;
 }
