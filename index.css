@@ -18,6 +18,7 @@ body {
   height: 35px;
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out;
+  mix-blend-mode: multiply;
 }
 .icon a:hover img {
     background-color: #007BFF;
