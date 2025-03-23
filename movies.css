@@ -4,10 +4,25 @@ body {
     margin: 0;
     padding: 10;
 }
-.IntroContainer{
-    display: flex;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px; 
+.IntroContainer {
+    text-align: center;
     margin-top: 30px;
+}
+
+.IntroContainer h1 {
+    font-size: 3em; 
+    font-weight: bold;
+    color: #333;
+}
+
+.PIntroContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.PIntroContainer p {
+    font-size: 2em; 
+    font-weight: bold;
+    color: #444;
+    margin: 10px 0; 
 }
