@@ -60,13 +60,15 @@ h1 {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: row;
-    align-content: center;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-}
-.WelcomeContainer p {
-    font-size: 1.5em;
-    line-height: 1.6;
-    margin: 10px 0;
-}
+
+        }
+        .WelcomeContainer p {
+            font-size: 1.5em;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
