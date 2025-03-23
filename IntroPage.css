@@ -65,10 +65,10 @@ h1 {
     background-color: #e3cccc; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px; 
+    margin-top: 20px auto; 
 }
 .WelcomeContainer p {
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 1.6;
     margin: 10px 0;
 }
