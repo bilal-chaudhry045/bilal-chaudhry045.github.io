@@ -26,13 +26,13 @@ body {
     color: #444;
     margin: 10px 0; 
 }
-.movie-list {
+.book-list {
     max-width: 800px;
     margin: 0 auto;
     padding: 30px;
   }
   
-  .movie-item {
+  .book-item {
     background-color: #e3cccc;
     padding: 30px;
     border-radius: 10px;
@@ -40,41 +40,41 @@ body {
     margin-bottom: 20px;
   }
   
-  .movie-content {
+  .book-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
   
-  .movie-image {
+  .book-image {
     width: 200px;
     height: 300px;
     margin-right: 20px;
     border-radius: 10px;
   }
   
-  .movie-description {
+  .book-description {
     flex: 1;
     padding: 20px;
   }
   
-  .movie-description p {
+  .book-description p {
     font-size: 1.5em;
     line-height: 1.6;
     margin-bottom: 10px;
   }
   
-  .movie-description ul {
+  .book-description ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
   
-  .movie-description li {
+  .book-description li {
     margin-bottom: 10px;
   }
   
-  .movie-description strong {
+  .book-description strong {
     font-weight: bold;
   }
   
