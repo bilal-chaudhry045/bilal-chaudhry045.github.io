@@ -4,3 +4,77 @@ body {
     margin: 0;
     padding: 10;
 }
+.IntroContainer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.IntroContainer h1 {
+    font-size: 3em; 
+    font-weight: bold;
+    color: #333;
+}
+
+.PIntroContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.PIntroContainer p {
+    font-size: 2em; 
+    font-weight: bold;
+    color: #444;
+    margin: 10px 0; 
+}
+.book-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .book-item {
+    background-color: #e3cccc;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .book-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book-image {
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  
+  .book-description {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .book-description p {
+    font-size: 1.5em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .book-description ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .book-description li {
+    margin-bottom: 10px;
+  }
+  
+  .book-description strong {
+    font-weight: bold;
+  }
+  
