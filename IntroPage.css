@@ -72,3 +72,28 @@ h1 {
             line-height: 1.6;
             margin: 10px 0;
         }
+        .site-footer {
+         background-color: #d6bebe;
+            padding: 30px 20px;
+            text-align: center;
+            font-size: 1em;
+            margin-top: 40px;
+            border-top: 2px solid #bfa5a5;
+            color: #333;
+          }
+          
+          .site-footer a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+          }
+          
+          .site-footer a:hover {
+            color: #000;
+            text-decoration: underline;
+          }
+          
+          .footer-content p {
+            margin: 8px 0;
+          }
+          
